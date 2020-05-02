@@ -1,0 +1,41 @@
+@media all and (max-width: 1000px) {
+    .biodata {
+        display: none;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .nav-list {
+        display: none;
+    }
+    .nav-list li {
+        clear: both;
+        padding: 65px 0;
+        font-weight: bold;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .top-wrapper {
+        width: 100%;
+    }
+    .profil,
+    .hobby,
+    .skill,
+    .downloadcv {
+        width: 100%;
+        margin: 0;
+    }
+    .flex-container {
+        display: block;
+    }
+    .downloadcv p {
+        margin: 25px 0;
+    }
+    .biodata {
+        display: none;
+    }
+    .skill-wrapper img {
+        margin: 0;
+    }
+}

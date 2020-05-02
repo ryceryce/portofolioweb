@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Homepage - Ridwanryce</title>
+</head>
+
+<body>
+    <header Id="navHead">
+        <div class="container">
+            <div class="float-left neon">
+                <h1><a href="#home">Ridwanryce</a></h1>
+            </div>
+            <div class="menu-icon float-right"><img id="navMobile" onclick="navMenu()" src="asset/bar-icon.png" alt="bar-icon"></div>
+            <div id="navList" class="nav-list float-right">
+                <ul>
+                    <li><a href="#aboutMe" class="nav-links neon">About Me</a></li>
+                    <li><a href="#hobby" class="nav-links neon">Hobby & Skills</a></li>
+                    <li><a href="#download" class="nav-links neon">Download CV</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="top-wrapper" id="home">
+                <img src="asset/profil_imej.jpg">
+                <p>I am a Junior Programmer. Have a good skills on SQL and Java. I love playing and making games.</p>
+            </div>
+            <div class="profil-wrapper">
+                <h2 id="aboutMe">About Me</h2>
+                <article>
+                    <div class="flex-container">
+                        <div class="profil">
+                            <h3>Education</h3>
+                            <div class="border"></div>
+                            <p>Gunadarma University</p>
+                            <p>Bachelor of Computer Science</p>
+                            <p>2018</p>
+                        </div>
+                        <div class="profil">
+                            <h3>Experience</h3>
+                            <div class="border"></div>
+                            <h4>PT Media Nusantara Citra</h4>
+                            <p>2017 - 2018</p>
+                            <p>IT Audit</p>
+                            <h4>Bank OCBC NISP</h4>
+                            <p>2019 - 2020</p>
+                            <p>Quality Assurance</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="profil-wrapper">
+                <h2 id="hobby">Hobby & Skills</h2>
+                <article>
+                    <div class="flex-container">
+                        <div class="hobby">
+                            <h3>Hobby</h3>
+                            <div class="border"></div>
+                            <p>Playing games</p>
+                            <p>Traveling</p>
+                            <p>Coding</p>
+                            <p>Make a games</p>
+                        </div>
+                        <div class="skill">
+                            <h3>Skill</h3>
+                            <div class="border"></div>
+                            <div class="flex">
+                                <div class="skill-wrapper title">
+                                    <ul>
+                                        <li>Java</li>
+                                        <li>SQL</li>
+                                        <li>English</li>
+                                        <li>HTML</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-wrapper star">
+                                    <ul>
+                                        <li><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"></li>
+                                        <li><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"></li>
+                                        <li><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"></li>
+                                        <li><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"><img src="asset/yellowstar.png"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="profil-wrapper">
+                <h2 id="download">Curriculum Vitae</h2>
+                <article>
+                    <div class="flex-container">
+                        <div class="downloadcv">
+                            <h3>Download CV</h3>
+                            <div class="border"></div>
+                            <a href="/asset/Ridwan CV.pdf" download="ridwanryce">
+                                <p>Click Here!</p>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <aside>
+            <div class="biodata show">
+                <button onclick="toggleShow()">Contact</button>
+            </div>
+            <div class="biodata data" id="show" style="display: none;">
+                <h3>Contact</h3>
+                <div class="border"></div>
+                <p>Ridwan Adi Saputra</p>
+                <p>0899-808-9738</p>
+                <p>ridwan.ryce@gmail.com</p>
+                <p>Cibitung, Bekasi</p>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <h1>Are you interested ?</h1>
+                <p>Please send email to<a href="mailto:ridwan.ryce@gmail.com">ridwan.ryce@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="function.js"></script>
+</body>
+
+</html>
